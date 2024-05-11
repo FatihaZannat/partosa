@@ -1,0 +1,36 @@
+@for $i from 10 through 90 {
+    .cs_fs_#{$i}{
+        font-size: $i + px ;
+    }
+};
+@for $i from 10 through 225 {
+    .cs_pt_#{$i}{
+        padding-top: $i + px ;
+    }
+}
+@for $i from 10 through 225 {
+    .cs_pb_#{$i}{
+        padding-bottom: $i + px ;
+    }
+}
+
+@for $i from 10 through 100{
+    .cs_pl_#{$i}{
+        padding-left: $i + px;
+    }
+    .cs_pl_#{$i}{
+        padding-right: $i + px;
+    }
+}
+@for $i from 5 through 15 {
+    .cs_br_#{$i}{
+        border-radius: $i + px ;
+    }
+}
+.cs_column_gap_35{
+    column-gap: 35px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}

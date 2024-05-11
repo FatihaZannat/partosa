@@ -1,0 +1,35 @@
+.cs_hero_right{
+
+    .img{
+       max-width: 440px;
+    }
+}
+
+.hero_text_design{
+// width: 100%;
+img{
+    max-width: 100%;
+}
+}
+.cs_hero_vector{
+    top: 0;
+    left: -60px;
+}
+.cs_social_btns{
+    top: 200px;
+    right: -30px;
+    background-color: transparent;
+    a{
+        width: 50px;
+        height: 50px;
+        background-color: #242424;
+        color: white;
+        margin-bottom: 40px;
+        border-radius: 15px;
+        i{
+            background-color: transparent;
+        }
+    }
+   
+    
+}

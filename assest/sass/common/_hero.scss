@@ -19,11 +19,24 @@
     }
 }
 
-.hero_text_design{
-img{
-    max-width: 100%;
+.cs_moving_wrap{
+    height: 150px;
 }
+.cs_moving_text{
+    font-size: 110px;
+    color: #242424;
+    animation: slide-left 20s linear infinite;
 }
+
+@keyframes slide-left{
+    from{
+         transform: translateX(0);
+     }
+    to{
+         transform: translateX(-100%);
+     }
+ }
+
 .cs_hero_vector{
     top: 0px;
     left: -60px;

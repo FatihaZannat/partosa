@@ -1,3 +1,5 @@
+@import './common/color_variable';
+
 @for $i from 10 through 90 {
     .cs_fs_#{$i}{
         font-size: $i + px ;
@@ -18,7 +20,7 @@
     .cs_pl_#{$i}{
         padding-left: $i + px;
     }
-    .cs_pl_#{$i}{
+    .cs_pr_#{$i}{
         padding-right: $i + px;
     }
 }
@@ -33,4 +35,10 @@
 a{
     text-decoration: none;
     color: white;
+}
+p{
+    color: #CDCBD1;
+}
+.text_green{
+    color: $green;
 }

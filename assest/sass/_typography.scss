@@ -5,6 +5,11 @@
         font-size: $i + px ;
     }
 };
+@for $i from 10 through 100 {
+    .cs_ml_#{$i}{
+       margin-left: $i + px ;
+    }
+}
 @for $i from 10 through 225 {
     .cs_pt_#{$i}{
         padding-top: $i + px ;

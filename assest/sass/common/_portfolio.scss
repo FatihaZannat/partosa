@@ -1,0 +1,27 @@
+.image_name{
+   .cs_portfolio_btn{
+        bottom: 30px;
+        width: 80%;
+        background-color: white;
+        color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 30px 28px;
+        opacity: 0;
+        transition: all .4s ease;
+        border: none;
+
+        i{
+            background-color: transparent;
+        }
+       
+    }
+    img{
+        border-radius: 15px;
+    }
+    &:hover{
+        .cs_portfolio_btn{
+            opacity: 1;
+        }
+    }
+}

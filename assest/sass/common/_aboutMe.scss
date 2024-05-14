@@ -64,3 +64,24 @@
         }
     }
 }
+
+@media (max-width: 991px){
+    .cs_section_heading{
+        flex-direction: column;
+        align-items: start !important;
+        h1{
+            width: 90%;
+            
+        }
+    }
+    .cs_section_heading_right{
+        padding-top: 80px;
+        padding-bottom: 20px;
+      
+    }
+    .cs_aboutMe{
+        .cs_aboutMe_in{
+            flex-direction: column;
+        }
+    }
+}

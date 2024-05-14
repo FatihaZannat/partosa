@@ -16,12 +16,23 @@
         }
        
     }
-    img{
+    .portfolio_img{
         border-radius: 15px;
+        width: 100%;
     }
     &:hover{
         .cs_portfolio_btn{
             opacity: 1;
         }
+    }
+}
+@media (max-width: 991px){
+    .cs_portfolio{
+        padding-bottom: 100px;
+    }
+    .cs_portfolio_btn{
+    //    left: 0;
+    display: flex;
+    justify-content: end;
     }
 }
